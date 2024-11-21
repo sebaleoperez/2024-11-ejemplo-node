@@ -4,6 +4,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   res.send('<p>Sebastian Perez</p>');
+  res.send('<p>Daniel Ramadan</p>');
 });
 
 app.listen(port, () => {
